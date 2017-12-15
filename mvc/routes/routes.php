@@ -72,7 +72,7 @@ class routes
         $route->method = 'all';
         $routes[] = $route;
         //GET METHOD index.php?page=accounts&action=all
-//https://web.njit.edu/~kwilliam/mvc/index.php?page=accounts&action=all
+        //https://web.njit.edu/~kwilliam/mvc/index.php?page=accounts&action=all
 
         $route = new route();
         $route->http_method = 'GET';
