@@ -20,7 +20,8 @@ class tasksController extends http\controller
     
     public static function newForm()
     {
-        self::getTemplate('createtodo');
+        $todo= new todo();
+        self::getTemplate('createtodo', $todo);
     }
 
 
@@ -50,7 +51,14 @@ class tasksController extends http\controller
 
     public static function create()
     {
-        print_r($_POST);
+        $todo= new todo();
+        $todo->ownerid = $_SESSION['userID'];
+        $todo->createdate = now();
+        $todo->owneremail = $_POST['owneremail'];
+        $todo->message = $_POST['message'];
+        $todo->isdone = $_POST['isdone'];
+        $todo->duedate = $_POST['duedate'];
+        $todo->save();
     }
 
     //this is the function to view edit record form

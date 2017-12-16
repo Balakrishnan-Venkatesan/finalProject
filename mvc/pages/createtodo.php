@@ -20,10 +20,10 @@
 <div style="text-align:center">
 
 <form action="index.php?page=tasks&action=create" method="post">
-    Owner Email: <input type="text" name="owneremail"> value="<?php echo $data->owneremail; ?>"><br>
-    Due Date: <input type="text" name="duedate">value="<?php echo $data->duedate; ?>"><br>
-    Message: <input type="text" name="message">value="<?php echo $data->message; ?>"><br>
-    Is done: <input type="text" name="is done">value="<?php echo $data->isdone; ?>"><br>
+    Owner Email: <input type="text" name="owneremail">value= "<?php echo $data->owneremail;?>" ><br>
+    Due Date: <input type="text" name="duedate">value= "<?php echo $data->duedate;?>" ><br>
+    Message: <input type="text" name="message">value= "<?php echo $data->message;?>" ><br>
+    Is done: <input type="text" name="is done">value= "<?php echo $data->isdone;?>" ><br>
     <input type="submit" value="Submit form">
 </form>
 
