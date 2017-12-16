@@ -17,6 +17,7 @@
 
 <body>
 
+<div style="text-align:center">
 
 <form action="index.php?page=accounts&action=register" method="post">
     First name: <input type="text" name="fname"><br>
@@ -28,7 +29,6 @@
     Password: <input type="password" name="password"><br>
     <input type="submit" value="Submit form">
 </form>
-
 
 <script src="js/scripts.js"></script>
 </body>
