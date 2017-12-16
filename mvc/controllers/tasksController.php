@@ -55,12 +55,13 @@ class tasksController extends http\controller
         session_start();
         date_default_timezone_set("Asia/Bangkok");
         $todo->ownerid = $_SESSION['userID'];
-        $todo->createdate = date("Y/m/d");
+        $todo->createddate = date("Y/m/d");
         $todo->isdone = $_POST['isdone'];
         $todo->message = $_POST['message'];
         $todo->owneremail = $_POST['owneremail'];
         $todo->duedate = $_POST['duedate'];
         $todo->save();
+        header("Location: index.php?page=tasks&action=all");
     }
 
     //this is the function to view edit record form
