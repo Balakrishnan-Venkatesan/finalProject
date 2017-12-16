@@ -56,9 +56,9 @@ class tasksController extends http\controller
         date_default_timezone_set("Asia/Bangkok");
         $todo->ownerid = $_SESSION['userID'];
         $todo->createdate = date("Y/m/d");
-        $todo->owneremail = $_POST['owneremail'];
-        $todo->message = $_POST['message'];
         $todo->isdone = $_POST['isdone'];
+        $todo->message = $_POST['message'];
+        $todo->owneremail = $_POST['owneremail'];
         $todo->duedate = $_POST['duedate'];
         $todo->save();
     }
@@ -86,12 +86,15 @@ class tasksController extends http\controller
 
     public static function save() {
         session_start();
-        $task = new todo();
-
-        $task->body = $_POST['body'];
-        $task->ownerid = $_SESSION['userID'];
-        $task->save();
-
+        $record = new todo();
+        $record->owneremail = $_REQUEST['owneremail'];
+        $record->createddate = $_REQUEST['createddate'];
+        $record->duedate = $_REQUEST['duedate'];
+        $record->message = $_REQUEST['message'];
+        $record->isdone = $_REQUEST['isdone'];
+        $record->ownerid = $_SESSION['userID'];
+        $record->save();
+        header("Location: index.php?page=tasks&action=all");
     }
 
     //this is the delete function.  You actually return the edit form and then there should be 2 forms on that.
