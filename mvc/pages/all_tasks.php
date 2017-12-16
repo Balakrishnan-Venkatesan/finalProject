@@ -19,6 +19,8 @@
 
 <a href="index.php?page=tasks&action=create">Create task<br><br></a>
 
+<a href="index.php?page=accounts&action=all">All Accounts<br><br></a>
+
 <?php
 //this is how you print something
 
