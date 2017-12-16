@@ -22,7 +22,7 @@
     <?php
 
     //this how to print some data;
-    echo $data['site_name'];
+    echo "CREATE TODOS SITE";
 
     ?> </h1>
 
