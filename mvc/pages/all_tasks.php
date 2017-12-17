@@ -21,6 +21,8 @@
 
 <a href="index.php?page=accounts&action=all">All Accounts<br><br></a>
 
+<a href="index.php?page=accounts&action=show">Your Account<br><br></a>
+
 <?php
 //this is how you print something
 
