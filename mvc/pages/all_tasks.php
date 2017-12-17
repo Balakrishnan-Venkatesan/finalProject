@@ -24,7 +24,11 @@
 <?php
 //this is how you print something
 
-print utility\htmlTable::genarateTableFromMultiArray($data);
+if ($data == false) {
+  echo 'no tasks found';
+} else {
+    print utility\htmlTable::genarateTableFromMultiArray($data);
+}   
 
 ?>
 
