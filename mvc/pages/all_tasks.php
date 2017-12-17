@@ -1,4 +1,4 @@
-<!doctype html>
+<!-- <!doctype html>
 
 <html lang="en">
 <head>
@@ -12,10 +12,12 @@
 
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-    <![endif]-->
+    <![endif]
 </head>
 
-<body>
+<body> -->
+
+<?php include 'header.php'; ?>
 
 <a href="index.php?page=tasks&action=create">Create task<br><br></a>
 <a href="index.php?page=accounts&action=all">All Accounts<br><br></a>
@@ -35,6 +37,8 @@
 
 <a href="index.php?page=accounts&action=logout"><br>Logout<br><br></a>
 
-<script src="js/scripts.js"></script>
+<?php include 'footer.php'; ?>
+
+<!-- <script src="js/scripts.js"></script>
 </body>
-</html>
+</html> -->
