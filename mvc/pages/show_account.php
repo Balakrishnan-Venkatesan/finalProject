@@ -31,7 +31,6 @@ print(utility\htmlTable::generateTableFromOneRecord($data));
 <form action="index.php?page=accounts&action=save&id=<?php echo $data->id; ?>" method="post">
 
     First name: <input type="text" name="fname" value="<?php echo $data->fname; ?>"><br>
-
     Last name: <input type="text" name="lname" value="<?php echo $data->lname; ?>"><br>
     Email: <input type="text" name="email" value="<?php echo $data->email; ?>"><br>
     Phone: <input type="text" name="phone" value="<?php echo $data->phone; ?>"><br>
