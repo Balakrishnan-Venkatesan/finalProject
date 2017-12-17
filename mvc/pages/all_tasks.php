@@ -25,12 +25,14 @@
 //this is how you print something
 
 if ($data == false) {
-  echo 'no tasks found';
+  echo '<p> no tasks found </p>';
 } else {
     print utility\htmlTable::genarateTableFromMultiArray($data);
 }   
 
 ?>
+
+<a href="index.php?page=accounts&action=logout"><br>Logout<br><br></a>
 
 <script src="js/scripts.js"></script>
 </body>
