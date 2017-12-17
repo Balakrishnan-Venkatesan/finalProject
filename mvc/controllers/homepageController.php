@@ -8,7 +8,6 @@
 //POST index.php?page=accounts?action=logout  this would destroy the session and return the user to the homepage
 //GET  index.php?page=accounts?action=show  this would be to show the user profile and you get the userID out of session
 
-
 class homepageController extends http\controller
 {
 
@@ -20,7 +19,7 @@ class homepageController extends http\controller
 //the template is an HTML page with PHP inserted in it.  just put an if/else statement to check for the session and show correct links
 
 
-        $templateData['site_name'] = 'mysite';
+        $templateData['site_name'] = 'CREATE TODOS SITE';
 
 //template data contains what will show up in the $data variable in the homepage template
 //the name of the template 'homepage' becomes 'homepage.php' in the pages directory

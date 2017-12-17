@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: kwilliams
- * Date: 11/27/17
- * Time: 5:32 PM
- */
-
 
 //each page extends controller and the index.php?page=tasks causes the controller to be called
 class accountsController extends http\controller
@@ -21,13 +14,10 @@ class accountsController extends http\controller
     }
 
     //to call the show function the url is index.php?page=accounts&action=all
-
     public static function all()
     {
-
         $records = accounts::findAll();
         self::getTemplate('all_accounts', $records);
-
     }
     //to call the show function the url is called with a post to: index.php?page=task&action=create
     //this is a function to create new tasks
@@ -44,7 +34,6 @@ class accountsController extends http\controller
 
     //this is the function to save the user the new user for registration
     public static function store()
-
     {
         $user = accounts::findUserbyEmail($_REQUEST['email']);
 
@@ -88,9 +77,9 @@ class accountsController extends http\controller
 
     }
 //this is used to save the update form data
-    public static function save() {
+    public static function save() 
+    {
         $user = accounts::findOne($_REQUEST['id']);
-
         $user->email = $_POST['email'];
         $user->fname = $_POST['fname'];
         $user->lname = $_POST['lname'];
@@ -99,11 +88,10 @@ class accountsController extends http\controller
         $user->gender = $_POST['gender'];
         $user->save();
         header("Location: index.php?page=tasks&action=all");
-
     }
 
-    public static function delete() {
-
+    public static function delete() 
+    {
         $record = accounts::findOne($_REQUEST['id']);
         $record->delete();
         header("Location: index.php?page=accounts&action=all");
@@ -127,7 +115,6 @@ class accountsController extends http\controller
         //        $record = accounts::findUser($_POST['email']);
 
         $user = accounts::findUserbyEmail($_REQUEST['email']);
-
 
         if ($user == FALSE) {
             echo 'user not found';

@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: kwilliams
- * Date: 11/27/17
- * Time: 5:32 PM
- */
-
 
 //each page extends controller and the index.php?page=tasks causes the controller to be called
 class tasksController extends http\controller
@@ -46,7 +39,6 @@ class tasksController extends http\controller
         $records = todos::findTasksbyID($userID);
         */
         self::getTemplate('all_tasks', $records);
-
     }
     //to call the show function the url is called with a post to: index.php?page=task&action=create
     //this is a function to create new tasks
@@ -72,23 +64,20 @@ class tasksController extends http\controller
     public static function edit()
     {
         $record = todos::findOne($_REQUEST['id']);
-
         self::getTemplate('edit_task', $record);
-
     }
 
     //this would be for the post for sending the task edit form
     public static function store()
     {
-
         $record = todos::findOne($_REQUEST['id']);
         $record->body = $_REQUEST['body'];
         $record->save();
         print_r($_POST);
-
     }
 
-    public static function save() {
+    public static function save() 
+    {
         session_start();
         $record = new todo();
         $record = todos::findOne($_REQUEST['id']);
