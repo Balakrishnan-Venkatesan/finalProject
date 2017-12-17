@@ -1,17 +1,10 @@
 <?php
 
 namespace http;
-/**
- * Created by PhpStorm.
- * User: kwilliams
- * Date: 11/27/17
- * Time: 5:20 PM
- */
 //by using the use here you don't have to put http on each class in that namespace
 
 class processRequest
 {
-
     //this is the main function of the program to calculate the response to a get or post request
     public static function createResponse()
     {

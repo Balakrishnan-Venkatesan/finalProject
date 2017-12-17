@@ -4,8 +4,6 @@ namespace http;
 
 class request
 {
-
-
 //this gets the request method to make it easier to use
     static public function getRequestMethod()
     {
@@ -30,16 +28,12 @@ class request
 //this gets the action out of the URL
     static public function getAction()
     {
-
 //this is a litte code to help the homepage handle post requests if needed
         if (self::getRequestMethod() == 'POST') {
             $action = 'create';
-
-
         } else {
             $action = 'show';
         }
-
 
         if (!empty($_GET['action'])) {
             $action = $_GET['action'];
