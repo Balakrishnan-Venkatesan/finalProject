@@ -6,16 +6,16 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="index.php?page=accounts&action=all"><font color="black">All Accounts</font><span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.php?page=accounts&action=all"><font color="#DC143C">All Accounts</font><span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="index.php?page=accounts&action=show"><font color="black">Your Account</font></a>
+        <a class="nav-link" href="index.php?page=accounts&action=show"><font color="#DC143C">My Account</font></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="index.php?page=tasks&action=create"><font color="black">Create Task</font></a>
+        <a class="nav-link" href="index.php?page=tasks&action=create"><font color="#DC143C">Create Task</font></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="index.php?page=accounts&action=logout"><font color="black">Logout</font></a>
+        <a class="nav-link disabled" href="index.php?page=accounts&action=logout"><font color="#DC143C">Logout</font></a>
       </li>
     </ul>
   </div>
@@ -23,7 +23,7 @@
 
 <?php
 //this is how you print something
-  echo '<br>List of tasks created';
+  echo '<br><center>List of tasks created';
 
   if ($data == false) {
     echo '<p> no tasks found </p>';
