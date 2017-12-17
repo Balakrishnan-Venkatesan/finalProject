@@ -72,7 +72,4 @@ $response = http\processRequest::createResponse();
 //  Like:  index.php?page=todos&action=show&id=1  this would show the to-do item with a link to the edit form.
 //  you could put your delete on the to_do item view or the edit form, the above still applies.
 
-
-
-
 ?>

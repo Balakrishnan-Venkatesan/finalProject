@@ -85,3 +85,5 @@ spl_autoload_register(array('Manage', 'controllers'));
 spl_autoload_register(array('Manage', 'collections'));
 spl_autoload_register(array('Manage', 'models'));
 spl_autoload_register(array('Manage', 'core'));
+
+?>

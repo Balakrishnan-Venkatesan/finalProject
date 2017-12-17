@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: kwilliams
- * Date: 11/27/17
- * Time: 5:25 PM
- */
-
 class routes
 {
 
@@ -200,3 +193,5 @@ class route
     public $method;
     public $controller;
 }
+
+?>
