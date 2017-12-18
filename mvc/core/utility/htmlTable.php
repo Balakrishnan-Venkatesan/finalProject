@@ -39,7 +39,7 @@ class htmlTable
 
     public static function generateTableFromOneRecord($innerArray)
     {
-        $tableGen = '<table border="2" cellpadding="10"><tr>';
+        $tableGen = '<table border="2" align="center" cellpadding="10"><tr>';
 
         $tableGen .= '<tr>';
         foreach ($innerArray as $innerRow => $value) {

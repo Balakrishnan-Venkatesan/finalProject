@@ -1,6 +1,7 @@
-<h4>Email: <?php echo $data->email; ?></h4>
-<h4>First Name: <?php echo $data->fname; ?></h4>
-<h4>Last Name: <?php echo $data->lname; ?></h4>
+<h4><p style="text-align:center"><br>My Account</p></h4>
+<h6><p style="text-align:center">Email: <?php echo $data->email; ?></p></h6>
+<h6><p style="text-align:center">First Name: <?php echo $data->fname; ?></p></h6>
+<h6><p style="text-align:center">Last Name: <?php echo $data->lname; ?></p></h6>
 
 
 <?php
