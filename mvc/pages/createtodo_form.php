@@ -24,7 +24,7 @@
     <label class="col-form-label" for="isdone">Is done</label>
     <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="enter is done?" name="isdone" value= "<?php echo $data->isdone;?>" >
   </div>
-  <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+  <button type="submit" class="btn btn-primary btn-success">Create</button>
 </form>
 
 <!-- <form action="index.php?page=tasks&action=create" method="post">
