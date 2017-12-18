@@ -19,15 +19,15 @@
   </div>
   <div class="form-group">
     <label class="col-form-label" for="email">Email</label>
-    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="enter email" name="email" required>
+    <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="enter email" name="email" required>
   </div>
   <div class="form-group">
     <label class="col-form-label" for="phone">Phone</label>
-    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="enter phone number" name="phone" required>
+    <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="enter phone number" name="phone" required>
   </div>
   <div class="form-group">
     <label class="col-form-label" for="birthday">Birthday</label>
-    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="enter birthday" name="birthday">
+    <input type="date" class="form-control" id="formGroupExampleInput2" placeholder="enter birthday" name="birthday">
   </div>
   <div class="form-group">
     <label class="col-form-label" for="gender">Gender</label>

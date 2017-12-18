@@ -33,11 +33,11 @@ print(utility\htmlTable::generateTableFromOneRecord($data));
   </div>
   <div class="form-group">
     <label class="col-form-label" for="phone">Phone</label>
-    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="enter phone number" name="phone" value="<?php echo $data->phone; ?>">
+    <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="enter phone number" name="phone" value="<?php echo $data->phone; ?>">
   </div>
   <div class="form-group">
     <label class="col-form-label" for="birthday">Birthday</label>
-    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="enter birthday" name="birthday" value="<?php echo $data->birthday; ?>">
+    <input type="date" class="form-control" id="formGroupExampleInput2" placeholder="enter birthday" name="birthday" value="<?php echo $data->birthday; ?>">
   </div>
   <div class="form-group">
     <label class="col-form-label" for="gender">Gender</label>

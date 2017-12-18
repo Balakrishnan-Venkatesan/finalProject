@@ -11,11 +11,11 @@
 
 <!-- <div class="form-group">
     <label class="col-form-label" for="owneremail">Owner email</label>
-    <input type="" class="form-control" id="formGroupExampleInput" placeholder="enter owner email" name="owneremail" value= "<?php echo $data->owneremail;?>" >
+    <input type="email" class="form-control" id="formGroupExampleInput" placeholder="enter owner email" name="owneremail" value= "<?php echo $data->owneremail;?>" >
   </div> -->
   <div class="form-group">
     <label class="col-form-label" for="duedate">Due date</label>
-    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="enter due date" name="duedate" value= "<?php echo $data->duedate;?>" >
+    <input type="date" class="form-control" id="formGroupExampleInput2" placeholder="enter due date" name="duedate" value= "<?php echo $data->duedate;?>" >
   </div>
   <div class="form-group">
     <label class="col-form-label" for="message">Message</label>
@@ -23,7 +23,7 @@
   </div>
   <div class="form-group">
     <label class="col-form-label" for="isdone">Is done</label>
-    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="enter is done?" name="isdone" value= "<?php echo $data->isdone;?>" >
+    <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="enter is done?" name="isdone" value= "<?php echo $data->isdone;?>" >
   </div>
   <button type="submit" class="btn btn-primary btn-success">Update</button>
 </form>
