@@ -1,11 +1,12 @@
 <form action="index.php?page=accounts&action=login" method="POST">
   
-  <div style="text-align:center">
+  
   <div class="container-fluid text-center">
+    <div style="text-align:center">
     <div class="row content">
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-    <div class="col-sm-10">
-  <div class="col-sm-8 text-center"> 
+    <div class="col-sm-8">
+    <div class="col-sm-8 text-center"> 
   </div>  
   
   <div class="form-group">
@@ -18,7 +19,7 @@
     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password" required>
   </div>
   
-  <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+  <button type="submit" class="btn btn-primary btn-sm">Login</button>
 </form>
   
   <div class="form-group">

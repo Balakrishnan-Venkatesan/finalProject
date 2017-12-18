@@ -1,5 +1,12 @@
-<div style="text-align:center">
+<div style="text-align: center">
 
+  <div class="container-fluid text-center">
+    <div class="row content">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <div class="col-sm-10">
+  <div class="col-sm-8 text-center"> 
+  </div> 
+  
 <form action="index.php?page=tasks&action=create" method="post">
   <div class="form-group">
     <label class="col-form-label" for="owneremail">Owner email</label>
