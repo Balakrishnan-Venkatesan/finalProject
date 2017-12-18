@@ -28,8 +28,8 @@ print(utility\htmlTable::generateTableFromOneRecord($data));
     <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="enter last name" name="lname" value="<?php echo $data->lname; ?>">
   </div>
   <div class="form-group">
-    <label class="col-form-label" for="email">Email</label>
-    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="enter email" name="email" value="<?php echo $data->email; ?>">
+    <!-- <label class="col-form-label" for="email">Email</label> -->
+    <input type="hidden" class="form-control" id="formGroupExampleInput2" placeholder="enter email" name="email" value="<?php echo $data->email; ?>">
   </div>
   <div class="form-group">
     <label class="col-form-label" for="phone">Phone</label>

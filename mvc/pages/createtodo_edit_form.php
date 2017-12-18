@@ -9,10 +9,10 @@
   
 <form action="index.php?page=tasks&action=save&id=<?php echo $data->id; ?>" method="post">
 
-<div class="form-group">
+<!-- <div class="form-group">
     <label class="col-form-label" for="owneremail">Owner email</label>
-    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="enter owner email" name="owneremail" value= "<?php echo $data->owneremail;?>" >
-  </div>
+    <input type="" class="form-control" id="formGroupExampleInput" placeholder="enter owner email" name="owneremail" value= "<?php echo $data->owneremail;?>" >
+  </div> -->
   <div class="form-group">
     <label class="col-form-label" for="duedate">Due date</label>
     <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="enter due date" name="duedate" value= "<?php echo $data->duedate;?>" >
