@@ -1,6 +1,14 @@
-<div style="text-align:center">
+<!-- <div style="text-align:center"> -->
 
 <form action="index.php?page=accounts&action=register" method="post">
+  
+  <div class="container-fluid text-center">
+    <div class="row content">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <div class="col-sm-10">
+  <div class="col-sm-8 text-center"> 
+  </div>
+  
   <div class="form-group">
     <label class="col-form-label" for="fname">First name</label>
     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="enter first name" name="fname" required>
@@ -29,7 +37,7 @@
     <label class="col-form-label" for="password">Password</label>
     <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="enter password" name="password" required>
   </div>
-  <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+  <button type="submit" class="btn btn-primary btn-sm">Register</button>
 </form>
 
 <!-- <form action="index.php?page=accounts&action=register" method="post">

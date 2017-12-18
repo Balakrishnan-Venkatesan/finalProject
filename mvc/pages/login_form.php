@@ -1,7 +1,8 @@
 <form action="index.php?page=accounts&action=login" method="POST">
-    <div class="form-group">
-        <label for="exampleInputEmail1"><b>Email address</b></label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="email" required>
+  
+  <div class="form-group">
+       <label for="exampleInputEmail1"><b>Email address</b></label>
+       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="email" required>
     </div>
 
     <div class="form-group">
