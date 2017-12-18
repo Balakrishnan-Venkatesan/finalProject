@@ -1,7 +1,5 @@
 <div style="text-align: center">
 
-<div style="background-image: url("todo.jpg"); height: 400px; width: 400px;">Todos</div>
-
   <div class="container-fluid text-center">
     <div class="row content">
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
