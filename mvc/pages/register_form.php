@@ -37,7 +37,7 @@
     <label class="col-form-label" for="password">Password</label>
     <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="enter password" name="password" required>
   </div>
-  <button type="submit" class="btn btn-primary btn-sm">Register</button>
+  <button type="submit" class="btn btn-primary btn-success">Register</button>
 </form>
 
 <!-- <form action="index.php?page=accounts&action=register" method="post">
