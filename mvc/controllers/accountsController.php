@@ -37,7 +37,6 @@ class accountsController extends http\controller
     {
         $user = accounts::findUserbyEmail($_REQUEST['email']);
 
-
         if ($user == FALSE) {
             $user = new account();
             $user->email = $_POST['email'];
