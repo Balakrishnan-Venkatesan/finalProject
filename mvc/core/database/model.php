@@ -9,7 +9,7 @@ abstract class model
     public function save()
     {
         if($this->validate() == FALSE) {
-            echo 'failed validation';
+            echo 'validation failed';
             exit;
         }
 

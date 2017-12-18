@@ -22,7 +22,7 @@ final class todo extends database\model
         $valid = TRUE;
         if($this->message == '') {
             $valid = FALSE;
-            echo 'nothing in message';
+            echo '<br>nothing in message';
         }
         return $valid;
 
